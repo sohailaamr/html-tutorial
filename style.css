@@ -1,0 +1,29 @@
+.div { 
+       color:brown; 
+       font-size:70px;
+       background-color: black;
+       padding:25px;
+       direction: normal;
+       text-decoration: line-through;
+       text-decoration: overline
+     }
+
+
+.ar {
+      font-size: 70px;
+      background-color: aquamarine;
+      direction: rtl;
+      text-align: center;
+      padding: 20px;
+      margin: 20px 
+    }
+
+.a {
+      font-size: 30px
+   } 
+
+.span {
+     background: brown;
+     width: 300px;
+     padding: 200px 
+    }
