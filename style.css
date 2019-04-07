@@ -1,28 +1,92 @@
-.div {
-  color: brown;
-  font-size: 70px;
-  background-color: black;
-  padding: 25px;
-  direction: normal;
-  text-decoration: line-through;
-  text-decoration: overline;
+h1 {
+  text-transform: capitalize;
+  color: rgb(54, 10, 54);
 }
 
-.ar {
-  font-size: 70px;
-  background-color: aquamarine;
-  direction: rtl;
-  text-align: center;
-  padding: 20px;
+hr {
   margin: 20px;
+  border-bottom: 5px solid purple;
+  width: 50px;
 }
 
-.a {
-  font-size: 30px;
+div {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(59, 63, 60);
+  text-indent: 0px;
+
 }
 
-.span {
-  background: brown;
-  width: 300px;
-  padding: 200px;
+input {
+  margin: 15px;
+  padding: 10px;
+  color: rgb(63, 58, 68);
+  font-weight: bold;
+  background: white;
+  width: 20%;
+}
+
+a {
+  margin: 15px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: aqua;
+  color: black;
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.one {
+  font-family: initial;
+  color: rgb(59, 63, 60);
+  text-indent: 50px;
+}
+
+.terms {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: transparent	;
+  color: purple;
+  display: inline;
+}
+
+.container {
+  margin: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 8px;
+  right:16px;
+}
+
+.container>a {
+  margin:10px;
+  padding:10px;
+  font-weight: bold;
+  display: inline
+}
+
+.login {
+  background-color: white;
+}
+
+.join {
+  background-color: aqua;
+}
+
+p {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: rgb(54, 10, 54);
+  font-size: 20px;
+}
+
+img {
+  align: middle;
+  width: 400px;
+  height: 320px;
+  float: right;
+  
 }
