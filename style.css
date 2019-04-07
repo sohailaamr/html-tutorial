@@ -84,9 +84,24 @@ p {
 }
 
 img {
-  align: middle;
+  align: center;
   width: 400px;
   height: 320px;
   float: right;
-  
 }
+.disqus {
+  align: center;
+  width: 80px;
+  height: 20px;
+}
+.codecademy {
+  align: center;
+  width: 80px;
+  height: 20px;
+}
+.reddit {
+  align: center;
+  width: 80px;
+  height: 20px;
+}
+
