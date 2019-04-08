@@ -1,18 +1,30 @@
+.logo {
+  float:left;
+  width:100px;
+  height:30px;
+  margin:10px;
+}
+
+
 h1 {
   text-transform: capitalize;
   color: rgb(54, 10, 54);
+  margin:10px;
+  padding: 10px;
 }
 
 hr {
   margin: 20px;
   border-bottom: 5px solid purple;
   width: 50px;
+  margin: 10px;
 }
 
 div {
   font-family: 'Courier New', Courier, monospace;
   color: rgb(59, 63, 60);
   text-indent: 0px;
+  margin: 20px;
 
 }
 
@@ -64,7 +76,7 @@ a {
   margin:10px;
   padding:10px;
   font-weight: bold;
-  display: inline;
+  display: inline
 }
 
 .login {
@@ -81,13 +93,17 @@ p {
   font-weight: bold;
   color: rgb(54, 10, 54);
   font-size: 20px;
+  margin:30px;
+  padding:20px;
 }
 
 img {
   align: center;
-  width: 400px;
-  height: 320px;
+  width: 350px;
+  height: 350px;
   float: right;
+  margin: 10px;
+  padding: 10px;
 }
 .disqus {
   align: center;
@@ -105,3 +121,15 @@ img {
   height: 20px;
 }
 
+.segment {
+  align: center;
+  width: 80px;
+  height: 20px;
+}
+
+.kont {
+  align: center;
+  width: 80px;
+  height: 20px;
+}
+ 
